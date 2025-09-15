@@ -3,8 +3,8 @@ import json
 import traceback
 import pandas as pd
 from dotenv import load_dotenv
-from src.MCQGen.utils import read_file,get_table_data
-from src.MCQGen.logger import logging
+from src.MCQGenerator.Util import read_file,get_table_data
+from src.MCQGenerator.logger import logging
 
 #imporing necessary packages packages from langchain
 from langchain.chians import LLMChain
