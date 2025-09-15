@@ -19,11 +19,11 @@ from langchain.callbacks import get_openai_callback
 
 #loading json file
 
-with open('Response.json', 'r') as file:
-    RESPONSE_JSON = json.load(file)
+with open('response.json', 'r') as file:
+       RESPONSE_JSON = json.load(file)
 
 #creating a title for the app
-st.title("Rudaya Powers MCQ Application 🦜⛓️")
+st.title("MCQ Application Powered By Rudaya Powers Pvt Ltd 🦜⛓️")
 
 #Create a form using st.form
 with st.form("user_inputs"):

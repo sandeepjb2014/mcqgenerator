@@ -1,2 +1,2 @@
 from src.mcqgenerator.logger import logging
-logging.info("Test log entry")  
+logging.info("Test log entry using main lab")  
